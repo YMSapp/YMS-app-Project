@@ -1,10 +1,10 @@
 <template>
 	<view>
-		<view class="house-kinds vitem">
-			<text class="swiper-title">最新上线</text>
+		<view class="house-kinds vitem" v-for="(item,index) in data" :key="index">
+			<text class="swiper-title">{{item.title}}</text>
 			<view class="vitem">
 				<view class="">
-					<text class="swiper-subtitle">精品入驻，抢先体验</text>
+					<text class="swiper-subtitle">{{item.subtitle}}</text>
 				</view>
 				<view class="city-swiper">
 					<swiper class="card-swiper" duration="500" @change="cardSwiper">
@@ -36,6 +36,7 @@
 
 <script>
 	export default {
+		props:['data'],
 		data() {
 			return {
 				cardCur: 0,
