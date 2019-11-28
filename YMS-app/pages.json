@@ -3,14 +3,35 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "首页"
 			}
-		}
-	],
+		},
+		{
+            "path" : "pages/Login/Login",
+            "style" : {
+				"navigationBarTitleText":"登录"
+			}
+        }
+        ,{
+            "path" : "components/HotCity/HotCity",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/Choose/Choose",
+            "style" : {
+				"navigationBarTitleText":"精选"
+			}
+        }
+        ,{
+            "path" : "components/LoginMotai/LoginMotai",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+		// "navigationStyle":"custom"
 	}
 }

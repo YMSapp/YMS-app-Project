@@ -1,0 +1,94 @@
+.main>view{
+	padding: ;
+}
+.user-acatar{
+	text-align: center;
+	color: #777;
+}
+.user-acatar>view{
+	display: block;
+	margin: 0 auto;
+	margin-top: 156upx;
+	width: 188upx;
+	height: 188upx;
+}
+.cu-list{
+	margin-top: 20upx;
+}
+.my-col{
+	height: 100upx;
+	/* margin: 0 20upx; */
+	box-sizing: content-box;
+	padding: 0 20upx;
+	border-bottom: 1upx solid #ddd;
+}
+.cuIcon-myres{
+	font-size: 42upx;
+	padding-right:24upx ;
+}
+
+.set-list{
+	margin-top: 20upx;
+}
+
+.login-logo{
+	height: 156upx !important;
+	color: #000000;
+}
+
+.cu-bar{
+	min-height: 210upx !important;
+}
+
+.logo-img{
+	display: block !important;
+	margin: 0 auto !important;
+	margin-top: 156upx;
+	width: 100upx;
+	height: 100upx;
+}
+
+.login-close{
+	align-items: flex-start !important;
+}
+
+.btn-login{
+	/* display: block; */
+	width:100%;
+	margin-top: 40upx!important;
+	background-color: #00d287 !important;
+}
+
+.forget-pas{
+	font-size: 24upx;
+	color: #aaa;
+}
+.place{
+	text-align: left;
+	padding-left: 40upx;
+	color: #999;
+}
+.get-checkcode{
+	font-size: 25upx;
+	color: #1fb683;
+	padding-left: 34upx;
+	border-left: 1upx solid #ddd;
+}
+.btn-register{
+	width:100%;
+	margin-top: 40upx!important;
+	background-color: #949597 !important;
+}
+.btn-active{
+	background-color: #00d287 !important;
+}
+
+.pro-radio>div>div{
+	width: 30upx !important;
+	height: 30upx !important;
+	border-radius: 0 !important;
+}
+
+.cu-avatar{
+	background-color: #fff !important;
+}
