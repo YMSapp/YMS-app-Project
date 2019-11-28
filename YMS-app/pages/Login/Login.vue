@@ -55,7 +55,7 @@
 				<view class="cu-bar bg-white justify-end">
 					<view class="content login-logo">
 						<view class="app-logo">
-							<view class="cu-avatar lg logo-img" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg);"></view>			
+							<view class="cu-avatar lg logo-img" style="background-image:url(../../static/YMSlogo4.png);"></view>			
 							<text>悦民宿</text>		
 						</view>
 					</view>
@@ -65,7 +65,7 @@
 				</view>
 				<view class="padding-xl">
 					<form>
-						<view class="cu-form-group margin-top">
+						<view class="cu-form-group">
 							<text class="cuIcon-mobilefill"></text>
 							<input placeholder="手机号" name="input" placeholder-class="place"></input>
 						</view>
@@ -89,7 +89,7 @@
 				<view class="cu-bar bg-white justify-end">
 					<view class="content login-logo">
 						<view class="app-logo">
-							<view class="cu-avatar lg logo-img" style="background-image:url(../../static/YMSlogo.png);"></view>			
+							<view class="cu-avatar lg logo-img" style="background-image:url(../../static/YMSlogo4.png);"></view>			
 							<text>悦民宿</text>		
 						</view>
 					</view>
@@ -99,7 +99,7 @@
 				</view>
 				<view class="padding-xl">
 					<form>
-						<view class="cu-form-group margin-top">
+						<view class="cu-form-group">
 							<text class="cuIcon-mobilefill"></text>
 							<input placeholder="手机号" name="input" placeholder-class="place"></input>
 						</view>
@@ -121,7 +121,7 @@
 			</view>
 		</view>
 		
-		<FootBar></FootBar>
+		<!-- <FootBar></FootBar> -->
 	</view>
 </template>
 

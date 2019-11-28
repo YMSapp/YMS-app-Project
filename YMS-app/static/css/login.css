@@ -46,6 +46,8 @@
 	margin-top: 156upx;
 	width: 100upx;
 	height: 100upx;
+	background-repeat: no-repeat !important;
+	background-size: 100% !important;
 }
 
 .login-close{
