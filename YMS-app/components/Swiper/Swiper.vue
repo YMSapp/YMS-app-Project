@@ -7,7 +7,7 @@
 					<text class="swiper-subtitle">{{item.subtitle}}</text>
 				</view>
 				<view class="city-swiper">
-					<swiper class="card-swiper" duration="500" @change="cardSwiper">
+					<swiper class="card-swiper" duration="500" @tap="cardSwiper">
 						<swiper-item v-for="(item,index) in swiperList" :key="index" class="swiper-item-box swiper-item-box1">
 								<view class="swiper-item">
 									<image :src="item.url" mode="aspectFill" v-if="item.type=='image'"></image>

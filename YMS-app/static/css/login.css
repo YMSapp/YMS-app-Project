@@ -1,5 +1,5 @@
 .main>view{
-	padding: ;
+	/*padding: ;*/
 }
 .user-acatar{
 	text-align: center;
@@ -79,7 +79,7 @@
 .btn-register{
 	width:100%;
 	margin-top: 40upx!important;
-	background-color: #949597 !important;
+	/*background-color: #949597 !important;*/
 }
 .btn-active{
 	background-color: #00d287 !important;

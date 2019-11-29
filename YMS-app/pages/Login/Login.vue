@@ -67,13 +67,13 @@
 					<form>
 						<view class="cu-form-group">
 							<text class="cuIcon-mobilefill"></text>
-							<input placeholder="手机号" name="input" placeholder-class="place"></input>
+							<input placeholder="手机号" name="input" placeholder-class="place" v-model="username"></input>
 						</view>
 						<view class="cu-form-group margin-top">
 							<text class="cuIcon-lock"></text>
-							<input placeholder="密码" name="input" placeholder-class="place"><text class="forget-pas">忘记密码？</text></input>
+							<input placeholder="密码" name="input" placeholder-class="place" v-model="psw"><text class="forget-pas">忘记密码？</text></input>
 						</view>
-						<button class="cu-btn bg-green margin-tb-sm lg btn-login">登录</button>
+						<button class="cu-btn bg-green margin-tb-sm lg btn-login" @tap="login">登录</button>
 						<view class="flex justify-between">
 							<text @tap="showModal" data-target="Modal1">新用户？去注册</text>
 							<text @tap="hideModal">先去逛逛>></text>
@@ -101,7 +101,7 @@
 					<form>
 						<view class="cu-form-group">
 							<text class="cuIcon-mobilefill"></text>
-							<input placeholder="手机号" name="input" placeholder-class="place"></input>
+							<input placeholder="手机号" name="input" placeholder-class="place" v-model="regusername"></input>
 						</view>
 						<view class="cu-form-group margin-top">
 							<text class="cuIcon-safe"></text>
@@ -109,9 +109,9 @@
 						</view>
 						<view class="cu-form-group margin-top">
 							<text class="cuIcon-lock"></text>
-							<input placeholder="请输入密码(至少6位)" name="input" placeholder-class="place"></input>
+							<input placeholder="请输入密码(至少6位)" name="input" placeholder-class="place" v-model="regpsw"></input>
 						</view>
-						<button class="cu-btn bg-green margin-tb-sm lg btn-register">注册</button>
+						<button class="cu-btn bg-green margin-tb-sm lg btn-register" @tap="Register">注册</button>
 
 						<view class="text-center margin-top">
 							<text @tap="showModal" data-target="Modal">已有账号，<text style="color: #00CE47;">直接登录</text></text>
@@ -134,6 +134,10 @@
 		data() {
 			return {
 				modalName: null,
+				username: '',
+				psw: '',
+				regusername: '',
+				regpsw: '',
 			}
 		},
 		methods: {
@@ -142,6 +146,40 @@
 			},
 			hideModal(e) {
 				this.modalName = null
+			},
+			login(){
+				let userdata = `username=${this.username}&psw=${this.psw}`;
+				this.$axios.get('http://localhost:3000/users/login?'+userdata).then((result)=>{
+					// console.log(result);
+					if(result.data.code == 1){
+						window.localStorage.setItem('token', result.data.data);
+						uni.navigateBack({
+							delta:1
+						});
+						/* this.$router.push({
+							path: '/',
+						}); */
+					}else {
+						alert(result.data.msg);
+					}
+				});
+			},
+			Register(){
+				let userdata = `username=${this.regusername}&psw=${this.regpsw}`;
+				this.$axios.get('http://localhost:3000/users/reg?'+userdata).then((result)=>{
+					// console.log(result);
+					if(result.data.code == 1){
+						let status = confirm("您已经注册成功！确定前往登录页面吗？");
+						if(status){
+							this.modalName = "Modal";
+							/* this.$router.push({
+								path: '/login',
+							}); */
+						}
+					}else{
+						alert(result.data.msg);
+					}
+				});
 			},
 		}
 	}
