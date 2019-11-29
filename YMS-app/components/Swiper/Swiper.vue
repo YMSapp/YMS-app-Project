@@ -14,15 +14,15 @@
 									<video :src="item.url" autoplay loop muted :show-play-btn="false" :controls="false" objectFit="cover" v-if="item.type=='video'"></video>
 								</view>
 								<view class="swiper-text-price">
-									<text>￥2015起</text>
+									<text>￥{{item.price}}起</text>
 								</view>
 								<view class="cu-item flex justify-between swiper-intro">
 									<view class="content">
-										<text class="text-grey">姥姥家</text>
+										<text class="text-grey">{{item.name}}</text>
 									</view>
 									<view class="action">
-										<view class="cu-tag bg-olive light">房山</view>
-										<view class="cu-tag bg-blue light">田园风</view>
+										<view class="cu-tag bg-olive light">{{item.style1}}</view>
+										<view class="cu-tag bg-blue light">{{item.style2}}</view>
 									</view>
 								</view>
 						</swiper-item>
@@ -43,37 +43,65 @@
 				swiperList: [{
 					id: 0,
 					type: 'image',
-					url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big84000.jpg'
+					url: '../../static/images/1.gif',
+					price: 2680,
+					name: '姥姥家',
+					style1: '房山',
+					style2: '田园风',
 				},
 				{
 					id: 1,
 					type: 'image',
-					url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big37006.jpg',
+					url: '../../static/images/2.gif',
+					price: 1500,
+					name: '后院驿站',
+					style1: '昌平',
+					style2: '轻奢派',
 				}, 
 				{
 					id: 2,
 					type: 'image',
-					url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big39000.jpg'
+					url: '../../static/images/3.gif',
+					price: 500,
+					name: '后院驿站',
+					style1: '密云',
+					style2: '田园风',
 				}, 
 				{
 					id: 3,
 					type: 'image',
-					url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg'
+					url: '../../static/images/4.gif',
+					price: 1450,
+					name: '后院驿站',
+					style1: '怀柔',
+					style2: '田园风',
 				}, 
 				{
 					id: 4,
 					type: 'image',
-					url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big25011.jpg'
+					url: '../../static/images/5.gif',
+					price: 1112,
+					name: '后院驿站',
+					style1: '轻奢派',
+					style2: '田园风',
 				},
 				{
 					id: 5,
 					type: 'image',
-					url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big21016.jpg'
+					url: '../../static/images/1.gif',
+					price: 150,
+					name: '后院驿站',
+					style1: '轻奢派',
+					style2: '田园风',
 				},
 				{
 					id: 6,
 					type: 'image',
-					url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg'
+					url: '../../static/images/2.gif',
+					price: 450,
+					name: '后院驿站',
+					style1: '轻奢派',
+					style2: '田园风',
 				}],
 				dotStyle: false,
 				towerStart: 0,

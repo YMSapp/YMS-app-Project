@@ -18,37 +18,37 @@
 				swiperList: [{
 					id: 0,
 					type: 'image',
-					url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big84000.jpg'
+					url: '../../static/images/3.gif',
 				},
 				{
 					id: 1,
 					type: 'image',
-					url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big37006.jpg',
+					url: '../../static/images/1.gif',
 				}, 
 				{
 					id: 2,
 					type: 'image',
-					url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big39000.jpg'
+					url: '../../static/images/4.gif'
 				}, 
 				{
 					id: 3,
 					type: 'image',
-					url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg'
+					url: '../../static/images/2.gif'
 				}, 
 				{
 					id: 4,
 					type: 'image',
-					url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big25011.jpg'
+					url: '../../static/images/5.gif'
 				},
 				{
 					id: 5,
 					type: 'image',
-					url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big21016.jpg'
+					url: '../../static/images/1.gif'
 				},
 				{
 					id: 6,
 					type: 'image',
-					url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg'
+					url: '../../static/images/2.gif'
 				}],
 				dotStyle: false,
 				towerStart: 0,
