@@ -8,7 +8,7 @@
 				</view>
 				<view class="city-swiper">
 					<swiper class="card-swiper" duration="500" @tap="cardSwiper">
-						<swiper-item v-for="(item,index) in swiperList" :key="index" class="swiper-item-box swiper-item-box1">
+						<swiper-item v-for="(item,index) in swiperList" :key="index" class="swiper-item-box swiper-item-box1" @tap="todetail">
 								<view class="swiper-item">
 									<image :src="item.url" mode="aspectFill" v-if="item.type=='image'"></image>
 									<video :src="item.url" autoplay loop muted :show-play-btn="false" :controls="false" objectFit="cover" v-if="item.type=='video'"></video>
@@ -84,6 +84,11 @@
 			cardSwiper(e) {
 				this.cardCur = e.detail.current
 			},
+			todetail(){
+				uni.navigateTo({
+					url:'../../pages/zs/Detail'
+				})
+			}
 		}
 	}
 </script>

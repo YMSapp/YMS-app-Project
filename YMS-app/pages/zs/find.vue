@@ -8,16 +8,16 @@
 				民宿标签
 			</view>
 			<view class="label-itembox">
-				<view class="label-item" @tap="handelHouseList('HouseList')">
+				<view class="label-item" @tap="handelHouseList('../zs/HouseList')">
 					田园风
 				</view>
-				<view class="label-item">
+				<view class="label-item" @tap="handelHouseList('../zs/HouseList')">
 					轻奢派
 				</view>
-				<view class="label-item">
+				<view class="label-item" @tap="handelHouseList('../zs/HouseList')">
 					文艺范
 				</view>
-				<view class="label-item">
+				<view class="label-item" @tap="handelHouseList('../zs/HouseList')">
 					温暖系
 				</view>
 			</view>
@@ -26,7 +26,7 @@
 			<view class="label-header">
 				民宿分类
 			</view>
-			<view class="classify-item" @tap="handelBanner('Banner')">
+			<view class="classify-item" @tap="handelBanner('../zs/Banner')">
 				<view class="classify-itemstart">
 					且下江南
 					<view class="classify-itemArrow">
@@ -42,11 +42,43 @@
 					</view>
 				</view>
 			</view>
-			<view class="classify-item">
+			<view class="classify-item" @tap="handelBanner('../zs/Banner')">
 				<view class="classify-itemstart">
 					且下江南
 					<view class="classify-itemArrow">
 
+					</view>
+				</view>
+				<view class="classify-itemp">
+					<view class="p1">
+						寻一处江南庭院
+					</view>
+					<view class="p2">
+						听一夜雨打芭蕉
+					</view>
+				</view>
+			</view>
+			<view class="classify-item" @tap="handelBanner('../zs/Banner')">
+				<view class="classify-itemstart">
+					且下江南
+					<view class="classify-itemArrow">
+			
+					</view>
+				</view>
+				<view class="classify-itemp">
+					<view class="p1">
+						寻一处江南庭院
+					</view>
+					<view class="p2">
+						听一夜雨打芭蕉
+					</view>
+				</view>
+			</view>
+			<view class="classify-item" @tap="handelBanner('../zs/Banner')">
+				<view class="classify-itemstart">
+					且下江南
+					<view class="classify-itemArrow">
+			
 					</view>
 				</view>
 				<view class="classify-itemp">

@@ -1,32 +1,36 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/zs/find",
-			"style": {
-				"navigationBarTitleText": "首页"
+			"path":"pages/index/index",
+			"style":{
+				"navigationBarBackgroundColor":"首页"
 			}
 		},
 		{
-<<<<<<< HEAD
+			"path": "pages/zs/find",
+			"style": {
+				"navigationBarTitleText": "发现"
+			}
+		},
+		{
+
 			"path": "pages/zs/HouseList",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "详情页前页"
 			}
 		},
 		{
 			"path": "pages/zs/Banner",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "圆形轮播"
 			}
 		},
 		{
 			"path": "pages/zs/Detail",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "详情页"
 			}
 		}
-		
-		
 	    ,{
             "path" : "pages/zs/Ret/Ret",
             "style" : {}
@@ -34,8 +38,8 @@
 		{
 		    "path" : "pages/zs/Ret/Check",
 		    "style" : {}
-		}
-=======
+		},
+		{
             "path" : "pages/Login/Login",
             "style" : {
 				"navigationBarTitleText":"登录"
@@ -55,18 +59,12 @@
             "path" : "components/LoginMotai/LoginMotai",
             "style" : {}
         }
->>>>>>> bac5ed69efeeb8831a7ac7a1e41cb681b3c9ea54
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8",
-<<<<<<< HEAD
 		"navigationStyle": "custom"
 	}	
-=======
-		"navigationStyle":"custom"
-	}
->>>>>>> bac5ed69efeeb8831a7ac7a1e41cb681b3c9ea54
 }

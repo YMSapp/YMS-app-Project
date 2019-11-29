@@ -35,6 +35,60 @@
 				</view>
 			</view>
 		</view>
+		<view class="HouseList-item" @tap="handelDetail('Detail')">
+			<view class="itembox">
+				<view class="money">
+					￥420起
+				</view>
+			</view>
+			<view class="itempbox">
+				<view class="words">
+					花开庐悦
+				</view>
+				<view class="button1">
+					桐庐
+				</view>
+				<view class="button2">
+					田园风
+				</view>
+			</view>
+		</view>
+		<view class="HouseList-item" @tap="handelDetail('Detail')">
+			<view class="itembox">
+				<view class="money">
+					￥420起
+				</view>
+			</view>
+			<view class="itempbox">
+				<view class="words">
+					花开庐悦
+				</view>
+				<view class="button1">
+					桐庐
+				</view>
+				<view class="button2">
+					田园风
+				</view>
+			</view>
+		</view>
+		<view class="HouseList-item" @tap="handelDetail('Detail')">
+			<view class="itembox">
+				<view class="money">
+					￥420起
+				</view>
+			</view>
+			<view class="itempbox">
+				<view class="words">
+					花开庐悦
+				</view>
+				<view class="button1">
+					桐庐
+				</view>
+				<view class="button2">
+					田园风
+				</view>
+			</view>
+		</view>
 	</view>
 	
 </template>

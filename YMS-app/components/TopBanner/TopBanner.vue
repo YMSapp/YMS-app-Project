@@ -77,6 +77,7 @@
 				}
 				this.swiperList = list
 			},
+			
 		}
 	}
 </script>
