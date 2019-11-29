@@ -3,10 +3,11 @@
 		{
 			"path": "pages/zs/find",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "首页"
 			}
 		},
 		{
+<<<<<<< HEAD
 			"path": "pages/zs/HouseList",
 			"style": {
 				"navigationBarTitleText": "uni-app"
@@ -34,12 +35,38 @@
 		    "path" : "pages/zs/Ret/Check",
 		    "style" : {}
 		}
+=======
+            "path" : "pages/Login/Login",
+            "style" : {
+				"navigationBarTitleText":"登录"
+			}
+        }
+        ,{
+            "path" : "components/HotCity/HotCity",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/Choose/Choose",
+            "style" : {
+				"navigationBarTitleText":"精选"
+			}
+        }
+        ,{
+            "path" : "components/LoginMotai/LoginMotai",
+            "style" : {}
+        }
+>>>>>>> bac5ed69efeeb8831a7ac7a1e41cb681b3c9ea54
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8",
+<<<<<<< HEAD
 		"navigationStyle": "custom"
 	}	
+=======
+		"navigationStyle":"custom"
+	}
+>>>>>>> bac5ed69efeeb8831a7ac7a1e41cb681b3c9ea54
 }
