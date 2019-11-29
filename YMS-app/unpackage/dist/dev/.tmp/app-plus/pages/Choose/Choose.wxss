@@ -1,0 +1,247 @@
+.main{
+}
+.vitem{
+	/* padding-left: 30upx; */
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.search-box{
+	margin: 40rpx 30rpx;
+	width: 690rpx;
+	height: 348rpx;
+	background: #fff;
+	border-radius: 15rpx;
+	padding: 30rpx 40rpx;
+}
+.search1,.search2{
+	border-bottom:1px solid #efefef ;
+	padding-bottom: 10rpx;
+	height: 84rpx;
+}
+.address{
+	border-right: 1px solid #efefef;
+	padding-right: 75rpx;
+}
+.cuIcon-location{
+	font-size: 40rpx;
+	margin-right: 15rpx;
+}
+.nor-font{
+}
+.price{
+	margin-left: 40rpx;
+}
+.price-origion{
+	width: 286rpx;
+	height: 56rpx;
+	border-radius: 28rpx;
+	background: #eef2f5;
+	padding-left: 10rpx;
+	padding-right: 10rpx;
+}
+.price-origion>view{
+	width: 46rpx;
+	height: 46rpx;
+	border-radius: 23rpx;
+	background: #fff;
+	text-align: center;
+	line-height: 46rpx;
+}
+.price-origion>text{
+	color: #999;
+}
+.cuIcon-calendar{
+	font-size: 40rpx;
+	margin-right: 20rpx;
+}
+.use-time{
+	color: #ccc;
+}
+.bg-gradual-green{
+	margin-left: 5%;
+	margin-top: 38rpx;
+	width: 90%;
+	height: 78rpx;
+}
+.hot-cities{
+	height: 612rpx;
+	background: #fff;
+	margin-bottom: 20rpx;
+}
+.house-kinds{
+	height: 584rpx;
+	background: #fff;
+	margin-bottom: 20rpx;
+}
+/* 日历 */
+.swiper-title{
+	display: block;
+	font-size: 38rpx;
+	text-align: center;
+	padding-top: 26rpx;
+}
+.swiper-subtitle{
+	display: block;
+	text-align: center;
+	color: #00CE47;
+}
+.city{
+	margin-top: 12rpx;
+}
+.city>text{
+	font-size: 30rpx;
+	margin: 0 17rpx;
+	padding: 10rpx;
+	border-bottom:  ;
+}
+.text-active{
+	color: #00CE47;
+	border-bottom: 4rpx solid #00CE47;
+}
+.swiper-item-box{
+	margin-top: 20rpx;
+	padding: 10rpx 10rpx 120rpx;
+	left: 0;
+	/* box-shadow: 3upx 3upx 3upx inset; */
+}
+.card-swiper{
+	height: 440rpx !important;
+}
+.swiper-item{
+	-webkit-transform: scale(1) !important;
+	    -ms-transform: scale(1) !important;
+	        transform: scale(1) !important;
+	margin-bottom: 20rpx;
+}
+.swiper-intro{
+	font-size: 26rpx;
+	color: #4e4e4e;
+}
+.swiper-item-box1{
+	margin-top: 10rpx;
+}
+
+.main{
+}
+.vitem{
+	/* padding-left: 30upx; */
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.search-box{
+	margin: 40rpx 30rpx;
+	width: 690rpx;
+	height: 348rpx;
+	background: #fff;
+	border-radius: 15rpx;
+	padding: 30rpx 40rpx;
+}
+.search1,.search2{
+	border-bottom:1px solid #efefef ;
+	padding-bottom: 10rpx;
+	height: 84rpx;
+}
+.address{
+	border-right: 1px solid #efefef;
+	padding-right: 75rpx;
+}
+.cuIcon-location{
+	font-size: 40rpx;
+	margin-right: 15rpx;
+}
+.nor-font{
+}
+.price{
+	margin-left: 40rpx;
+}
+.price-origion{
+	width: 286rpx;
+	height: 56rpx;
+	border-radius: 28rpx;
+	background: #eef2f5;
+	padding-left: 10rpx;
+	padding-right: 10rpx;
+}
+.price-origion>view{
+	width: 46rpx;
+	height: 46rpx;
+	border-radius: 23rpx;
+	background: #fff;
+	text-align: center;
+	line-height: 46rpx;
+}
+.price-origion>text{
+	color: #999;
+}
+.cuIcon-calendar{
+	font-size: 40rpx;
+	margin-right: 20rpx;
+}
+.use-time{
+	color: #ccc;
+}
+.bg-gradual-green{
+	margin-left: 5%;
+	margin-top: 38rpx;
+	width: 90%;
+	height: 78rpx;
+}
+.hot-cities{
+	height: 612rpx;
+	background: #fff;
+	margin-bottom: 20rpx;
+}
+.house-kinds{
+	height: 584rpx;
+	background: #fff;
+	margin-bottom: 20rpx;
+}
+/* 日历 */
+.swiper-title{
+	display: block;
+	font-size: 38rpx;
+	text-align: center;
+	padding-top: 26rpx;
+}
+.swiper-subtitle{
+	display: block;
+	text-align: center;
+	color: #00CE47;
+}
+.city{
+	margin-top: 12rpx;
+}
+.city>text{
+	font-size: 30rpx;
+	margin: 0 17rpx;
+	padding: 10rpx;
+	border-bottom:  ;
+}
+.text-active{
+	color: #00CE47;
+	border-bottom: 4rpx solid #00CE47;
+}
+.swiper-item-box{
+	margin-top: 20rpx;
+	padding: 10rpx 10rpx 120rpx;
+	left: 0;
+	/* box-shadow: 3upx 3upx 3upx inset; */
+}
+.card-swiper{
+	height: 440rpx !important;
+}
+.swiper-item{
+	-webkit-transform: scale(1) !important;
+	    -ms-transform: scale(1) !important;
+	        transform: scale(1) !important;
+	margin-bottom: 20rpx;
+}
+.swiper-intro{
+	font-size: 26rpx;
+	color: #4e4e4e;
+}
+.swiper-item-box1{
+	margin-top: 10rpx;
+}
+
+

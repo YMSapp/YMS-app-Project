@@ -1,0 +1,1 @@
+<view class="main"><top-banner vue-id="1" bind:__l="__l"></top-banner><search vue-id="2" bind:__l="__l"></search><hot-city vue-id="3" bind:__l="__l"></hot-city><swiper data="{{data}}"></swiper></view>

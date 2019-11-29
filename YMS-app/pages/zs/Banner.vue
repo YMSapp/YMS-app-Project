@@ -3,6 +3,17 @@
 		<swiper class="swiper" indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" :indicator-dots="true" :autoplay="autoplay" :interval="interval" :duration="duration">
 			<swiper-item>
 				<view class="swiper-item uni-bg-red">
+					<view class="Detail-header">
+						<uni-view data-v-64d72ad5="" data-v-5215696f="" class="cu-bar bg-white border-bottom">
+							<uni-view data-v-64d72ad5="" data-v-5215696f="" class="action ">
+								<uni-text @tap="back" data-v-64d72ad5="" data-v-5215696f="" class="cuIcon-back text-gray"><span data-v-64d72ad5=""></span>
+								</uni-text>
+							</uni-view>
+							<uni-view data-v-64d72ad5="" data-v-5215696f="" class="content text-bold">
+							</uni-view>
+						</uni-view>
+					</view>
+
 					<image src="../../static/img/02.jpg" mode=""></image>
 					<view class="circularBorder">
 						<view class="circular">
@@ -68,6 +79,15 @@
 </template>
 
 <script>
+	export default{
+			methods:{
+				back(){
+					uni.navigateBack({	
+					})
+				},
+			}
+		}
+
 </script>
 
 <style lang="scss">
@@ -132,4 +152,9 @@
 			right:58upx;
 		}
 	}
+	.cu-bar{
+			position: absolute;
+			z-index: 10;
+			background: rgba(0,0,0,0);
+		}
 </style>

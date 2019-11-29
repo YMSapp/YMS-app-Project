@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "精选",
+  "usingComponents": {
+    "uni-calendar": "/components/uni-calendar/uni-calendar",
+    "foot-bar": "/components/FootBar/FootBar",
+    "swiper": "/components/Swiper/Swiper",
+    "search": "/components/Search/Search",
+    "top-banner": "/components/TopBanner/TopBanner",
+    "hot-city": "/components/HotCity/HotCity"
+  }
+}

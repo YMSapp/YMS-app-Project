@@ -43,50 +43,52 @@
 				</view>
 			</view>
 			<view class="classify-item" @tap="handelBanner('../zs/Banner')">
+				<image src="../../static/images/3.gif" mode="" style="position: absolute; width: 100%; height: 100%;"></image>
 				<view class="classify-itemstart">
-					且下江南
+					帝都记忆
 					<view class="classify-itemArrow">
 
 					</view>
 				</view>
 				<view class="classify-itemp">
 					<view class="p1">
-						寻一处江南庭院
+						八百年帝都
 					</view>
 					<view class="p2">
-						听一夜雨打芭蕉
+						每一处都值得细细品咂
 					</view>
 				</view>
 			</view>
 			<view class="classify-item" @tap="handelBanner('../zs/Banner')">
+				<image src="../../static/images/2.gif" mode="" style="position: absolute; width: 100%; height: 100%;"></image>
 				<view class="classify-itemstart">
-					且下江南
+					西南忘返
 					<view class="classify-itemArrow">
 			
 					</view>
 				</view>
 				<view class="classify-itemp">
 					<view class="p1">
-						寻一处江南庭院
+						京在心中东
 					</view>
 					<view class="p2">
-						听一夜雨打芭蕉
+						人子画中游
 					</view>
 				</view>
 			</view>
 			<view class="classify-item" @tap="handelBanner('../zs/Banner')">
+				<image src="../../static/images/1.gif" mode="" style="position: absolute; width: 100%; height: 100%;"></image>
 				<view class="classify-itemstart">
-					且下江南
+					北方印象
 					<view class="classify-itemArrow">
-			
 					</view>
 				</view>
 				<view class="classify-itemp">
 					<view class="p1">
-						寻一处江南庭院
+						在苍茫处
 					</view>
 					<view class="p2">
-						听一夜雨打芭蕉
+						有你最温柔的守望
 					</view>
 				</view>
 			</view>
