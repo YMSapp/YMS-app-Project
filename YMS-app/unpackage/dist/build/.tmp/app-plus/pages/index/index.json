@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "首页",
+  "usingComponents": {
+    "login": "/pages/Login/Login",
+    "choose": "/pages/Choose/Choose",
+    "foot-bar": "/components/FootBar/FootBar",
+    "find": "/pages/zs/find"
+  }
+}

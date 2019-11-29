@@ -1,0 +1,84 @@
+.main{
+	
+}
+.vitem{
+	/* padding-left: 30upx; */
+	box-sizing: border-box;
+}
+.search-box{
+	margin: 40upx 30upx;
+	width: 690upx;
+	height: 348upx;
+	background: #fff;
+	border-radius: 15upx;
+	padding: 30upx 40upx;
+}
+.search1,.search2{
+	border-bottom:1px solid #efefef ;
+	padding-bottom: 10upx;
+	height: 84upx;
+}
+
+.address{
+	border-right: 1px solid #efefef;
+	padding-right: 75upx;
+	
+}
+.cuIcon-location{
+	font-size: 40upx;
+	margin-right: 15upx;
+}
+.nor-font{
+	
+}
+.price{
+	margin-left: 40upx;
+}
+.price-origion{
+	width: 286upx;
+	height: 56upx;
+	border-radius: 28upx;
+	background: #eef2f5;
+	padding-left: 10upx ;
+	padding-right: 10upx;
+}
+.price-origion>view{
+	width: 46upx;
+	height: 46upx;
+	border-radius: 23upx;
+	background: #fff;
+	text-align: center;
+	line-height: 46upx;
+}
+.price-origion>text{
+	color: #999;
+}
+
+.cuIcon-calendar{
+	font-size: 40upx;
+	margin-right: 20upx;
+}
+.use-time{
+	color: #ccc;
+}
+.bg-gradual-green{
+	margin-left: 5%;
+	margin-top: 38upx;
+	width: 90%;
+	height: 78upx;
+}
+
+.hot-cities{
+	height: 612upx;
+	background: #fff;
+	margin-bottom: 20upx;
+}
+
+.house-kinds{
+	height: 584upx;
+	background: #fff;
+	margin-bottom: 20upx;
+}
+
+
+/* 日历 */

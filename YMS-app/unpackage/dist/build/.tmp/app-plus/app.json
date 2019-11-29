@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/zs/find",
+    "pages/zs/HouseList",
+    "pages/zs/Banner",
+    "pages/zs/Detail",
+    "pages/zs/Ret/Ret",
+    "pages/zs/Ret/Check",
+    "pages/Login/Login",
+    "components/HotCity/HotCity",
+    "pages/Choose/Choose",
+    "components/LoginMotai/LoginMotai"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "YMS-app",
+  "compilerVersion": "2.4.2",
+  "usingComponents": {}
+}
